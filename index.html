@@ -47,6 +47,19 @@
   </div>
 </section>
 
+<style>
+  .card-text {
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  .card:hover .card-text {
+    display: block;
+    opacity: 1;
+  }
+</style>
+
 <section id="hobbies" class="bg-light py-5">
   <div class="container">
     <h2 class="text-center">Hobbies</h2>
@@ -123,7 +136,6 @@
     </div>
   </div>
 </section>
-
 
 <section id="favorites" class="bg-light py-5">
   <div class="container">
